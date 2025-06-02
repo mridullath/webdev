@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    
+        <style>
+            body {
+                font-family: 'Inter', sans-serif;
+                background-color: #f0f0f0;
+            }
+            header {
+                text-align: center;
+                margin-bottom: 20px;
+                font-size: xx-large;
+                font-family:'Inter', sans-serif;
+                font-weight: 800;
+            }
+            p{
+                
+                float: left;
+                margin: 5px;
+                padding: 5px;
+                position: relative;
+            }
+            div{
+                position: absolute;
+            }
+            #p1{
+                background-color:grey;
+                width: 200px;
+                height: 90px;
+                padding: 45px 10px 10px 10px;
+
+            }
+            #p4{
+                border: 1px solid black;
+                margin: 10px;
+                padding: 10px;
+                background-color: pink;
+                width: auto;
+                height: auto;
+                text-align: center;
+                font-size: medium;
+                font-weight: 800;
+                position: relative;
+                top:0px;
+                left:350px;
+            }      
+            #p2{
+                background-color:grey;
+                width: 200px;
+                height: 90px;
+                padding: 45px 10px 10px 10px;
+                
+                
+            }
+            #p5{
+                border: 1px solid black;
+                margin: 10px;
+                padding: 10px;
+                background-color: red;
+                width: auto;
+                height: auto;
+                text-align: center;
+                font-size: medium;
+                font-weight: 800;
+                position: relative;
+                top: 0px;
+                left:850px ;
+            }
+            #p3{
+                background-color:grey;
+                width: 200px;
+                height: 90px;
+                padding: 45px 10px 10px 10px;
+                
+            }
+            #p6{
+                border: 1px solid black;
+                margin: 10px;
+                padding: 10px;
+                background-color: yellow;
+                width: auto;
+                height: auto;
+                text-align: center;
+                font-size: medium;
+                font-weight: 800;
+                position: relative;
+                top: 0px;
+                left: 1325px;
+                
+            }
+
+            @media (min-width: 992px)  {
+                #p1{
+                    width:30%;
+                }
+                #p2{
+                    width: 30% ;
+                }
+                #p3{
+                    width: 30% ;
+                }
+            }
+
+            @media (min-width: 768px) and (max-width:991px){
+                #p1{
+                    width:50%;
+                }
+                #p2{
+                    width: 50% ;
+                }
+                #p3{
+                    width: 100% ;
+                }
+            }
+            @media (max-width: 767px){
+                #p1{
+                    width:100%;
+                }
+                #p2{
+                    width: 100% ;
+                }
+                #p3{
+                    width: 100% ;
+                }
+            }
+            
+        </style>
+    </head>
+    <body>
+        <main>
+            <header>Our Menu</header>
+            <p id="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                <div>
+                    <h1 id="p4">Chicken
+
+                    </h1>
+                </div>
+            </p>
+            <p id="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <div>
+                    <h1 id="p5">Beef</h1>
+                </div></p>
+            <p id="p3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.    
+                <div>
+                    <h1 id="p6">Sushi</h1>
+                </div>
+            </p>    
+        </main>
+    </body>
+</html>
